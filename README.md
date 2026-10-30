@@ -33,3 +33,22 @@ Use HTML or JSON export to move notes between devices or browsers. There is no a
 Earlier structured backups and freeform backups are supported. User text and code are retained during migration. The editor displays raw HTML as text and does not run stored code.
 
 Use **Print** on a problem note to print it or save it as a PDF through the browser.
+
+## Notes tracked in this repository
+
+Problem notes live in `notes/problems/`, and master notes live in `notes/topics/`. Their metadata is in `notes/content.json`. The Markdown bodies remain freeform.
+
+After changing these files, rebuild the content embedded in the standalone HTML:
+
+```sh
+python3 scripts/build-notes.py
+```
+
+Repository notes appear when the HTML opens, including in a browser with older saved data. Updates replace an earlier repository version only if it has not been edited locally. Existing personal notes and intentional problem deletions are preserved. Browser edits still need an HTML or JSON export to become a portable backup; they are not automatically committed to GitHub.
+
+Checks:
+
+```sh
+node tests/repository-content.cjs
+python3 tests/note-solutions.py
+```

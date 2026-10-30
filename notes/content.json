@@ -1,0 +1,63 @@
+{
+  "topics": [
+    {
+      "id": "recursion",
+      "name": "Recursion",
+      "symbol": "()",
+      "parents": [],
+      "language": "Python",
+      "updatedAt": "2026-10-29",
+      "body_file": "topics/recursion.md"
+    }
+  ],
+  "problems": [
+    {
+      "id": "lc-70-climbing-stairs",
+      "number": "70",
+      "title": "Climbing Stairs",
+      "topics": [
+        "recursion",
+        "dp-1d"
+      ],
+      "difficulty": "Easy",
+      "language": "Python",
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "tags": "recursion, call stack, recurrence, memoization, dynamic programming",
+      "solvedAt": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "body_file": "problems/0070-climbing-stairs.md"
+    },
+    {
+      "id": "lc-226-invert-binary-tree",
+      "number": "226",
+      "title": "Invert Binary Tree",
+      "topics": [
+        "recursion",
+        "trees"
+      ],
+      "difficulty": "Easy",
+      "language": "Python",
+      "url": "https://leetcode.com/problems/invert-binary-tree/",
+      "tags": "recursion, subtree contract, DFS, call stack",
+      "solvedAt": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "body_file": "problems/0226-invert-binary-tree.md"
+    },
+    {
+      "id": "lc-236-lowest-common-ancestor",
+      "number": "236",
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "topics": [
+        "recursion",
+        "trees"
+      ],
+      "difficulty": "Medium",
+      "language": "Python",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "tags": "recursion, return values, lowest common ancestor, DFS, parent pointers",
+      "solvedAt": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "body_file": "problems/0236-lowest-common-ancestor.md"
+    }
+  ]
+}
