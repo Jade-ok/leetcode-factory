@@ -73,6 +73,22 @@
       "solvedAt": "2026-11-03",
       "updatedAt": "2026-11-03",
       "body_file": "problems/2860-happy-students.md"
+    },
+    {
+      "id": "lc-347-top-k-frequent-elements",
+      "number": "347",
+      "title": "Top K Frequent Elements",
+      "topics": [
+        "heap",
+        "arrays"
+      ],
+      "difficulty": "Medium",
+      "language": "Python",
+      "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+      "tags": "hash map, counting, min-heap, bucket sort",
+      "solvedAt": "2026-11-03",
+      "updatedAt": "2026-11-03",
+      "body_file": "problems/0347-top-k-frequent-elements.md"
     }
   ]
 }
