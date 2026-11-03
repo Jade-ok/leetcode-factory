@@ -58,6 +58,21 @@
       "solvedAt": "2026-10-29",
       "updatedAt": "2026-10-29",
       "body_file": "problems/0236-lowest-common-ancestor.md"
+    },
+    {
+      "id": "lc-2860-happy-students",
+      "number": "2860",
+      "title": "Happy Students",
+      "topics": [
+        "arrays"
+      ],
+      "difficulty": "Medium",
+      "language": "Python",
+      "url": "https://leetcode.com/problems/happy-students/",
+      "tags": "sorting, enumeration, counting",
+      "solvedAt": "2026-11-03",
+      "updatedAt": "2026-11-03",
+      "body_file": "problems/2860-happy-students.md"
     }
   ]
 }
