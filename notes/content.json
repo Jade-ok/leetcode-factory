@@ -89,6 +89,21 @@
       "solvedAt": "2026-11-03",
       "updatedAt": "2026-11-03",
       "body_file": "problems/0347-top-k-frequent-elements.md"
+    },
+    {
+      "id": "lc-208-implement-trie",
+      "number": "208",
+      "title": "Implement Trie (Prefix Tree)",
+      "topics": [
+        "tries"
+      ],
+      "difficulty": "Medium",
+      "language": "Python",
+      "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      "tags": "trie, prefix tree, hash map, design",
+      "solvedAt": "2026-11-22",
+      "updatedAt": "2026-11-22",
+      "body_file": "problems/0208-implement-trie.md"
     }
   ]
 }
