@@ -2,6 +2,22 @@ A recursive function solves one state by calling itself on smaller states. Befor
 
 For `ways(k)`, the result is a count. For a subtree function, the result might be the root of a transformed subtree or a node found inside that subtree. Returning from a call resumes its caller; it does not stop the entire traversal.
 
+## Signals: when to think "recursion"
+
+- The input is a **tree**, or something made of smaller copies of itself.
+- The answer for `n` can be **built from answers for smaller inputs**.
+- The problem says "how many ways", "every subtree", or "all paths".
+- I can finish the sentence: "`solve(x)` returns ___."
+
+If the same smaller state comes back from different branches, add memoization. That turns it into DP.
+
+```text
+Problem                     Signal                                    Recursion shape
+70  Climbing Stairs         ways(n) = ways(n-1) + ways(n-2)           overlapping states -> memo / DP
+226 Invert Binary Tree      same swap at every node                   each node once, disjoint subtrees
+236 Lowest Common Ancestor  answer depends on what each subtree has   return info upward (post-order)
+```
+
 ## State, base case, progress, combination
 
 - Define the input state and the meaning of the return value.

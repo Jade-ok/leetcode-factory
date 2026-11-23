@@ -1,3 +1,9 @@
+## How I recognized it
+
+- "How many distinct ways" → I only need a **count**, not the actual paths.
+- To reach stair `n`, the last move came from `n-1` or `n-2` → the answer is built from smaller answers → **recursion**.
+- The same stairs get recomputed → **memoization / 1D DP**.
+
 My starting point is to make the two-step case explicit: one stair has one way, and two stairs have two ways, `[1, 1]` and `[2]`. These base cases make more sense to me than starting with zero stairs.
 
 This is the recursive code I want to keep from my submission. The recurrence is correct, but the repeated work makes this version too slow for large inputs in the problem's range. It is my starting solution, not the optimized one.

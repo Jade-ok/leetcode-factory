@@ -1,3 +1,8 @@
+## How I recognized it
+
+- "Most frequent" → count first with a **hash map**.
+- "Top `k`" → **min-heap of size `k`** (or bucket sort for O(n)).
+
 ## Key idea
 
 First count each number with a dictionary. Then the problem becomes "pick the `k` keys with the largest counts". The only difference between solutions is how you pick them.

@@ -1,3 +1,8 @@
+## How I recognized it
+
+- Binary tree, and the answer depends on **what each subtree contains** → **post-order DFS** (children first, then decide).
+- Not a BST, so I can't use values to pick a side. I have to search both sides.
+
 The lowest common ancestor is the deepest node whose subtree contains both targets. A target can be its own ancestor, so if `p` is above `q`, the answer can be `p` itself.
 
 This is a general binary tree, not a binary search tree. I cannot choose a child by comparing node values.

@@ -1,3 +1,8 @@
+## How I recognized it
+
+- Binary tree + **the same action at every node** (swap left and right) → **recursion / DFS**.
+- Each subtree is handled once and never overlaps → no memo needed.
+
 For every node, its left and right subtrees need to exchange places. Swapping only the root's children is not enough: each subtree must also be inverted.
 
 The shared discussion mentions this problem but does not include my submitted code. The implementation below is a reference for reviewing the recursion, not a copy of my submission.

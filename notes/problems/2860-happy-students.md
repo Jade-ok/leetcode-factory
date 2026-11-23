@@ -1,3 +1,8 @@
+## How I recognized it
+
+- "Count the ways to choose a group" but the condition only depends on the **group size** → **try every size `s`**.
+- Each student is compared to `s` (smaller or bigger) → **sort**, so the selected students become a prefix.
+
 ## Key idea
 
 Try every group size `s` from `0` to `n`. Student `i` is happy only if:
